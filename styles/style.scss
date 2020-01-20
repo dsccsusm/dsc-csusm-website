@@ -1,0 +1,33 @@
+// Your variable overrides
+$blue: #4285f4;
+$red: #EA4335;
+$green: #34A853;
+$yellow: #FBBC04;
+$grey: #676C72;
+$white: #FFFFFF;
+
+$light: $white;
+
+// .navbar-nav {
+//   .nav-link {
+//     color: $grey;
+
+//     @include hover-focus() {
+//       color: $navbar-light-hover-color;
+//     }
+
+//     &.disabled {
+//       color: $navbar-light-disabled-color;
+//     }
+//   }
+
+//   .show>.nav-link,
+//   .active>.nav-link,
+//   .nav-link.show,
+//   .nav-link.active {
+//     color: $navbar-light-active-color;
+//   }
+// }
+
+// Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
