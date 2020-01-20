@@ -1,9 +1,7 @@
-
-
 const layout = () => {
     return (
         <div>
-            
+        
         </div>
     )
 }
