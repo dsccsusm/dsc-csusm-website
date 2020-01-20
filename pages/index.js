@@ -17,13 +17,15 @@ export default function Index() {
         <Row className="justify-content-center">
           <Col className="align-self-center">
             <p className="h3"><strong>Developer Student Club @ CSUSM</strong></p>
-            <p className="mt-3">Developer Student Clubs is a <Google/> Developers program for university students 
-              to learn mobile and web development skills, design thinking skills and leadership 
-              skills.</p>
+            <p className="mt-5 grey lead">Developer Student Clubs is a <Google/> Developers program for university students 
+              to learn <span className="yellow">mobile</span> and 
+              <span className="blue"> web development</span> skills, 
+              <span className="red"> design thinking skills</span> and 
+              <span className="green"> leadership skills</span>.</p>
             <Button variant="primary">Apply to be a member</Button>
           </Col>
-          <Col>
-          <img src="/diversity.png" height="auto" width="512"/>
+          <Col className="align-self-center">
+          <img className="img-fluid p-5" src="/diversity.png"/>
           </Col>
         </Row>
       </Container>
