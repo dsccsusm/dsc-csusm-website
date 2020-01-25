@@ -15,17 +15,20 @@ export default function Index() {
       <Navbar />
       <Container className="mt-5">
         <Row className="justify-content-center">
-          <Col className="align-self-center">
+          <Col sm={true} className="align-self-center">
             <p className="h3"><strong>Developer Student Club @ CSUSM</strong></p>
             <p className="mt-5 grey lead">Developer Student Clubs is a <Google/> Developers program for university students
               to learn <span className="yellow">mobile</span> and
               <span className="blue"> web development</span> skills,
               <span className="red"> design thinking skills</span> and
               <span className="green"> leadership skills</span>.</p>
-            <Button variant="primary">Apply to be a member</Button>
+
+            <div id="button-center">
+              <Button variant="primary">Apply to be a member</Button>
+            </div>
           </Col>
-          <Col className="align-self-center">
-          <img className="img-fluid p-5" src="/diversity.png"/>
+          <Col sm={true} className="align-self-center">
+          <img className="img-fluid" id="image-illustration" src="/diversity.png"/>
           </Col>
         </Row>
       </Container>
