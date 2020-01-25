@@ -19,3 +19,20 @@
 .grey {
     color: $grey;
 }
+
+#image-illustration {
+    width: 100%;
+    padding-left: 3rem;
+}
+
+@include media-breakpoint-down(sm) {
+    #button-center {
+        text-align: center;
+    }
+
+    #image-illustration {
+        width: 100%;
+        padding-left: 0rem;
+    }
+}
+
