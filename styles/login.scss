@@ -1,0 +1,40 @@
+// Import the necessary Bootstrap files
+@import "~bootstrap/scss/_functions.scss";
+@import "~bootstrap/scss/_variables.scss";
+
+// Make changes to the !default Bootstrap variables
+
+// _variables.scss
+$blue: #4285f4;
+$red: #ea4335;
+$green: #34a853;
+$yellow: #fbbc04;
+$grey: #676c72;
+$white: #ffffff;
+$border-radius: 1rem;
+$card-border-radius: $border-radius;
+
+// _card.scss
+$card-spacer-x: 2.5rem 2rem;
+
+// Finally, import Bootstrap to set the changes
+@import "~bootstrap/scss/bootstrap.scss";
+
+.has-text-blue {
+  color: $blue;
+}
+
+.form-text {
+  display: inline !important;
+}
+
+.center-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-btn {
+  width: 100%;
+}
